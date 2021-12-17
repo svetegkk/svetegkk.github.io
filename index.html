@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Kings_Kids</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Kurale&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Kurale&family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bitter&display=swap" rel="stylesheet">
+        <script src="jquery-3.6.0.min.js"></script>
+    </head>
+
+    <body>
+
+        <header>
+            <div class="header_logo" id="headerLogo">
+            <h1>KING'S KIDS</h1>
+        </div>
+        <div class="header_menu">
+            <a href="#intro" class="menu_item">Главная</a>
+            <a href="#about" class="menu_item">О нас</a>
+            <a href="#projects" class="menu_item">Наши проекты</a>
+            <a href="#achievements" class="menu_item">Достижения</a>
+            <a href="#broadcast" class="menu_item">Танцевальный видеопроект</a>
+            <a href="#send" class="menu_item">Обратная связь</a>
+            
+        </div>
+             
+        </header>
+
+        <main>
+            <section class="intro" id="intro">
+                <div class="wrapper">
+                    <div class="intro_wrapper">
+                        <div class="intro_left">
+                            <img src="IMG_1296.jpg" class="intro_img" alt="INTRO">
+                        </div>
+
+                        <div class="intro_right">
+                            <h1 id="mytitle" class="intro_title">Добро пожаловать на сайт KING'S KIDS Беларуси</h1>
+                            <button id="mybutton" class="intro_send">НАПИШИТЕ НАМ</button>
+
+                            <div id="myModal" class="modal">
+                                <div id="myContent" class="modal_content">
+                                    <div id="myClose" class="close">&times;</div>
+                                    <div class="wrapper">
+                                        <div class="send_wrapper">
+                                            <h1 class="send_title"> НАПИШИТЕ НАМ </h1>
+                                            <form>
+                                                <div class="send_form">
+                                                    <div>
+                                                        <input type="text" class="form1 formstyle" placeholder="Ваше имя">
+                                                        <input type="email" class="form2 formstyle" placeholder="Ваш email">
+                                                    </div>
+                                                    <textarea cols="30" rows="10" class="form3 formstyle" placeholder="Сообщение"></textarea>
+                                                    <button class="send_button1"> Отправить </button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+            </section>
+
+            <section class="broadcast" id="broadcast">
+                <div class="wrapper">
+                    <div class="broadcast_wrapper">
+                        <h1 class="broadcast_title">Смотрите наш танцевальный видеопроект</h1>
+
+                        <video src="О видеопроекте_рус.mp4" class="broadcast_video" controls="controls"></video>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about" id="about">
+                <div class="wrapper">
+                    <div class="about_wrapper">
+                        <h1 class="about_title">
+                            О НАС
+                        </h1>
+                        <p class="about_text">
+                            В Беларуси служение «Царские Дети» организовано в 1996г. Наша цель: вести детей, молодежь и семьи всего мира к твердому, испытанному познанию Бога, приносить Ему радость и вместе возвещать о Нем всем народам. Международное служение "King’s Kids" ("Царские Дети") было основано в 1976 на Гавайях. Его основателями являются Дэйл и Кэрол Коуфман. Служение "Царские Дети" является частью международной организации "Youth with a Mission" ("Молодежь с миссией") и охватывает страны Азии, Тихого океана, Америки, Западной и Восточной Европы, Африки и Ближнего Востока.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="projects" id="projects">
+                <div class="wrapper">
+                    <div class="projects_wrapper">
+                        <h1 class="projects_title">
+                            НАШИ ПРОЕКТЫ
+                        </h1>
+
+                        <div class="projects_foto">
+                            <img class="proj_foto"  src="3D.jpg" alt="3D">
+                            <img class="proj_foto" src="Вперёд.jpg" alt="GOCAMP">
+                            <img class="proj_foto" src="ВХП.jpg" alt="WORSHIP">
+                            <img class="proj_foto" src="ДНК.jpg" alt="DNA">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="achievements" id="achievements">
+                <div class="wrapper">
+                    <h3 class="achievements_title">НАШИ ДОСТИЖЕНИЯ</h3>
+                    <div class="achievements_wrapper">
+                        <div class="achievements_left">
+                            <h3 class="skill skill1">Библейское ученичество</h3>
+                            <h3 class="skill skill2">Миссионерское служение</h3>
+                            <h3 class="skill skill3">Финансовая помощь</h3>
+                        </div>
+                        <div class="achievements_right">
+                            <img src="achievements.jpg" alt="achievements" class="achievements_img">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="gallery">
+                    <div class="galery_str">
+                        <a href="01.jpg" class="lightzoom">
+                            <img src="01.jpg" alt="Картинка1" class="gallery_img">
+                        </a>
+                        
+                        <a href="02.jpg" class="lightzoom">
+                            <img src="02.jpg" alt="Картинка2" class="gallery_img">
+                        </a>
+
+                        <a href="03.jpg" class="lightzoom">
+                            <img src="03.jpg" alt="Картинка3" class="gallery_img">
+                        </a>
+
+                        <a href="04.jpg" class="lightzoom">
+                            <img src="04.jpg" alt="Картинка4" class="gallery_img">
+                        </a>
+
+                        <a href="05.jpg" class="lightzoom">
+                            <img src="05.jpg" alt="Картинка5" class="gallery_img">
+                        </a>
+                       
+                    </div>
+                </div>
+            </section>
+
+            <section class="send" id="send">
+                <div class="wrapper">
+                    <div class="send_wrapper">
+                        <h1 class="send_title"> НАПИШИТЕ НАМ </h1>
+                        <form>
+                            <div class="send_form">
+                                <div>
+                                    <input type="text" class="form1 formstyle" placeholder="Ваше имя">
+                                    <input type="email" class="form2 formstyle" placeholder="Ваш email">
+                                </div>
+                                <textarea cols="30" rows="10" class="form3 formstyle" placeholder="Сообщение"></textarea>
+                                <button class="send_button1"> Отправить </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+            <footer>
+                <div class="wrapper">
+                    <div class="footer_wrapper">
+                        <div class="left_footer">
+                            <h3 class="footer_title">&#169; 1996-2021 King's Kids</h3>
+                        </div>
+
+                        <div class="right_footer">
+                            <img src="vk.png" alt="vk" class="footer_img">
+                            <img src="vk1.png" alt="vk" class="footer_img">
+                            <img src="fs.png" alt="fs" class="footer_img">
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+        </main>
+        <link rel="stylesheet" href="lightzoom/style.css">
+        <script src="lightzoom/lightzoom.js"></script>
+        <script>jQuery(".lightzoom").lightzoom({speed: 400, viewTitle: false, isOverlayClickClosing: true});</script>
+
+        <script src="myscript.js"></script>
+
+        
+    </body>
+</html>
